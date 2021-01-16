@@ -1,1 +1,2 @@
 # SQLNotes
+Basically SQL Theory
