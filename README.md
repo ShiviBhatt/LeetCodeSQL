@@ -1,2 +1,1 @@
-# SQLNotes
-Basically SQL Theory
+# LeetCode Curated SQL 70
