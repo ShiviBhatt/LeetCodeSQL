@@ -70,7 +70,7 @@ John, Daiana, Steve and Jasmine are enrolled in departments 14, 33, 74 and 77 re
 */
 
 
-SOLUTION:
+-- SOLUTION:
 
 SELECT s.id, s.name 
 FROM students s
