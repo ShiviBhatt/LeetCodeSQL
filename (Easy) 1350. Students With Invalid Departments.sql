@@ -80,3 +80,11 @@ WHERE d.id IS NULL
 /*
 Here First I am selecting id and name of students, than I am applying left join coz I want matching id from left table but I am also applying where clause to retreive those rows which are not matched hence that means I want to those students who are enrolled in dept that no longer exists
 */
+
+-- WITHOUT USING JOINS
+SELECT id, name FROM Students
+WHERE department_id not in (SELECT id from Departments)
+
+
+
+
