@@ -61,3 +61,6 @@ from activity
 where datediff(day, activity_date, '2019-07-27')<30
 group by activity_date
 having count(activity_type)>=1
+
+-- The DATEDIFF() function returns the difference between two dates.
+-- Syntax : DATEDIFF(interval, start_date, end_date)
